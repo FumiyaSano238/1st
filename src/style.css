@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+
+.font-zen {
+    font-family: 'Zen Kurenaido', sans-serif !important;
+}
+
+h1 {
+    font-family: 'Zen Kurenaido', sans-serif !important;
+}
+
+
+p{
+    font-family: 'Zen Kurenaido', sans-serif !important;
+}

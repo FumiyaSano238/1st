@@ -1,5 +1,12 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Aboutページ</h1>
+    <p>このサイトについて説明するページです</p>
   </div>
 </template>
+
+<script>
+export default {
+  name: "AboutView",
+};
+</script>
