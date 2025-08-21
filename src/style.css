@@ -8,11 +8,38 @@
     font-family: 'Zen Kurenaido', sans-serif !important;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Zen Kurenaido', sans-serif !important;
 }
 
-
-p{
+p {
     font-family: 'Zen Kurenaido', sans-serif !important;
+}
+
+/* ヒーローセクションのスタイル */
+.hero-section {
+    position: relative;
+    width: 100%;
+}
+
+/* レスポンシブ対応のための追加スタイル */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        line-height: 1.2;
+    }
+}
+
+/* スムーズなトランジション */
+* {
+    transition: all 0.2s ease-in-out;
+}
+
+/* ナビゲーションリンクのホバーエフェクト */
+nav a:hover {
+    transform: translateY(-1px);
 }
